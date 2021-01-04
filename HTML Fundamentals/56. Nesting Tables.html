@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head> 
+    
+        <title> Nesting Tables </title>
+        
+        <style>
+            
+            td{
+                
+                border: 1px solid khaki
+            }
+            
+            th {
+                
+                border: 1px solid blue
+            }
+            
+            thead {
+                
+                font-style: italic ;
+                border: 1px solid black
+            }
+            
+            tbody{
+                
+                font-size: 120% ;
+                font-style: italic ;
+                border: 1px solid black
+
+            }
+            
+        </style>
+    
+    </head>
+    
+    <body>
+        
+        <div style="color: chocolate"> <h1> Nested Table </h1> </div>
+        
+        <table id="table 1">
+           
+          <thead>
+            
+              <tr>
+                
+                <th> Title 1 </th>
+                <th> Title 2 </th>
+                <th> Title 3 </th>
+                
+              </tr>
+              
+        </thead>
+            
+        <tbody>    
+            
+            <tr>
+                
+                <td id="nested">
+                    <table id="table 2">
+                     
+                        <tbody>
+                        
+                            <tr>
+                
+                                <td> Cell 1 </td>
+                                <td> Cell 2 </td>
+                                <td> Cell 3 </td>
+                
+                            </tr>
+            
+                        </tbody>
+                        
+                    </table>
+                    
+                </td>
+                
+                <td> Cell 2 </td>
+                <td> Cell 3 </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td> Cell 4 </td>
+                <td> Cell 5 </td>
+                <td> Cell 6 </td>
+                
+            </tr>
+            
+        </tbody>
+            
+            
+        </table>
+        
+        
+    </body>
+    
+    
+</html>

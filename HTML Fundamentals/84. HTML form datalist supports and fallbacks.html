@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <title> Autocomplete Box </title>
+        
+    </head>
+    
+    <body>
+        
+        <div style="color: cadetblue"> <h2> This artcile is about html autocomplete box  </h2> </div>
+        <div style="color: chocolate"> <h3> here's the autocomplete box information </h3> </div>
+        
+        <form>
+            
+            <label for="myFruit"> What is your favourite fruit?(with fallback) </label>
+            <input type="text" name="myFruit" id="myFruit" list="fruitList">
+            
+            <datalist id="fruitList">
+                
+                <label for="suggestion"> or pick a fruit </label>
+                
+                <select>
+                    
+                    <option> Apple </option>
+                    <option> Banana </option>
+                    <option> Blackberry </option>
+                    <option> Blueberry </option>
+                    <option> Lemon </option>
+                    <option> Lychee </option>
+                    <option> Peach </option>
+                    <option> Pear </option>
+                    
+                </select>
+                
+            </datalist> 
+            
+            <section>
+                    
+                    <fieldset>
+                        
+                        <legend>
+                            
+                            <label for="checkbox"> Vegetables </label>
+                            <input type="checkbox" checked id="carrots" name="carrots" value="carrots"> 
+                                
+                        </legend>
+                        
+                    </fieldset>
+                    
+             </section>
+            
+            <section>
+                
+                <label for="age"> Age : </label>
+                <input type="number" name="age" id="age" min="10" max="120" step="5">
+                
+            </section>
+       
+        </form>
+        
+        
+    </body>
+    
+</html>
